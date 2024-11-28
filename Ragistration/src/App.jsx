@@ -1,12 +1,13 @@
 import './App.css'
-import { RegistrationForm} from './RagistrationForm'
+// import { RegistrationForm} from './RagistrationForm'/
+import { RegistrationFormReact } from './RagistrationFormReact'
 
 function App() {
   
 
   return (
     <>
-     <RegistrationForm/>
+     <RegistrationFormReact/>
        
     </>
   )

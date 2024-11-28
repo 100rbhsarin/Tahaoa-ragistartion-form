@@ -38,15 +38,30 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #453639;
+  
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
   cursor: pointer;
-  transition: border-color 0.25s;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
 }
 button:hover {
   border-color: #646cff;
@@ -71,17 +86,34 @@ button:focus-visible {
   }
 }
 
-.formarea{
+.container{
   align-items: center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 10vh;
   padding-top: 3%;
-  background-image: linear-gradient(100deg, #c8e14c, #1db3e5);
+  /* background-image: linear-gradient(100deg, #c8e14c, #1db3e5); */
+  background-color: #121ef9;
   border-radius: 40px;
   /* border-radius: 20px; */
   /* border-color: #453639; */
   /* color: white; */
   transition: 0.3s linear;
   overflow: hidden;
+}
+
+input{
+  padding: 10px;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  border: 5px;
+  outline: 5px;
+  border-radius: 15;
+  /* border-top-left-radius: 17px; */
+  /* border-bottom-left-radius: 17px; */
+  max-width: 500px;
+  transition: background-color 200ms ease-in-out;
+  width: 100%;
+  background-color: #eef1f5;
+  color: var(--primary-color);
 }
